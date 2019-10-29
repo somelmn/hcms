@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>594</x>
-      <y>189</y>
-      <w>117</w>
-      <h>45</h>
+      <x>616</x>
+      <y>120</y>
+      <w>104</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>
 Patient</panel_attributes>
@@ -16,10 +16,10 @@ Patient</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>567</x>
-      <y>198</y>
-      <w>45</w>
-      <h>36</h>
+      <x>592</x>
+      <y>128</y>
+      <w>40</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;30.0;20.0</additional_attributes>
@@ -27,10 +27,10 @@ Patient</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>567</x>
-      <y>162</y>
-      <w>27</w>
-      <h>117</h>
+      <x>592</x>
+      <y>96</y>
+      <w>24</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
@@ -38,10 +38,10 @@ Patient</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>531</x>
-      <y>153</y>
-      <w>63</w>
-      <h>36</h>
+      <x>560</x>
+      <y>88</y>
+      <w>56</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
@@ -49,32 +49,21 @@ Patient</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>531</x>
-      <y>243</y>
-      <w>63</w>
-      <h>36</h>
+      <x>560</x>
+      <y>168</y>
+      <w>56</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>531</x>
-      <y>198</y>
-      <w>81</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>459</x>
-      <y>153</y>
-      <w>81</w>
-      <h>36</h>
+      <x>496</x>
+      <y>88</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>P_Name</panel_attributes>
     <additional_attributes/>
@@ -82,10 +71,10 @@ Patient</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>459</x>
-      <y>198</y>
-      <w>81</w>
-      <h>36</h>
+      <x>496</x>
+      <y>128</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>P_Username</panel_attributes>
     <additional_attributes/>
@@ -93,10 +82,10 @@ Patient</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>459</x>
-      <y>243</y>
-      <w>81</w>
-      <h>36</h>
+      <x>496</x>
+      <y>168</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>P_Password</panel_attributes>
     <additional_attributes/>
@@ -104,10 +93,10 @@ Patient</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>432</x>
-      <y>540</y>
-      <w>90</w>
-      <h>45</h>
+      <x>328</x>
+      <y>536</y>
+      <w>80</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>
 Doctor</panel_attributes>
@@ -116,10 +105,10 @@ Doctor</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>180</x>
-      <y>477</y>
-      <w>81</w>
-      <h>45</h>
+      <x>104</x>
+      <y>464</y>
+      <w>72</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>D_Name</panel_attributes>
     <additional_attributes/>
@@ -127,21 +116,21 @@ Doctor</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>351</x>
-      <y>549</y>
-      <w>99</w>
-      <h>36</h>
+      <x>248</x>
+      <y>544</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>180</x>
-      <y>522</y>
-      <w>81</w>
-      <h>45</h>
+      <x>104</x>
+      <y>504</y>
+      <w>72</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>D_Username</panel_attributes>
     <additional_attributes/>
@@ -149,10 +138,10 @@ Doctor</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>180</x>
-      <y>567</y>
-      <w>81</w>
-      <h>45</h>
+      <x>104</x>
+      <y>544</y>
+      <w>72</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>D_Password</panel_attributes>
     <additional_attributes/>
@@ -160,10 +149,10 @@ Doctor</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>297</x>
-      <y>288</y>
-      <w>90</w>
-      <h>45</h>
+      <x>208</x>
+      <y>256</y>
+      <w>80</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>
 Admin</panel_attributes>
@@ -172,10 +161,10 @@ Admin</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
-      <y>279</y>
-      <w>27</w>
-      <h>81</h>
+      <x>184</x>
+      <y>248</y>
+      <w>24</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
@@ -183,10 +172,10 @@ Admin</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>180</x>
-      <y>270</y>
-      <w>81</w>
-      <h>36</h>
+      <x>104</x>
+      <y>240</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>A_Username</panel_attributes>
     <additional_attributes/>
@@ -194,10 +183,10 @@ Admin</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>180</x>
-      <y>324</y>
-      <w>81</w>
-      <h>36</h>
+      <x>104</x>
+      <y>288</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>A_Password</panel_attributes>
     <additional_attributes/>
@@ -205,10 +194,10 @@ Admin</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>792</x>
-      <y>72</y>
-      <w>90</w>
-      <h>45</h>
+      <x>984</x>
+      <y>384</y>
+      <w>80</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>
 Hospitals</panel_attributes>
@@ -217,32 +206,21 @@ Hospitals</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>936</x>
-      <y>54</y>
-      <w>81</w>
-      <h>36</h>
+      <x>1112</x>
+      <y>368</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>Hospital_List</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>351</x>
-      <y>486</y>
-      <w>27</w>
-      <h>162</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>549</x>
-      <y>531</y>
-      <w>108</w>
-      <h>72</h>
+      <x>576</x>
+      <y>528</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>type=decision
 Appoint for</panel_attributes>
@@ -251,32 +229,21 @@ Appoint for</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>126</y>
-      <w>27</w>
-      <h>81</h>
+      <x>616</x>
+      <y>152</y>
+      <w>24</w>
+      <h>216</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>594</x>
-      <y>225</y>
-      <w>27</w>
-      <h>144</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;250.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>918</x>
-      <y>360</y>
-      <w>108</w>
-      <h>72</h>
+      <x>960</x>
+      <y>56</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>type=decision
 Create file</panel_attributes>
@@ -285,10 +252,10 @@ Create file</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>963</x>
-      <y>423</y>
-      <w>27</w>
-      <h>81</h>
+      <x>1000</x>
+      <y>112</y>
+      <w>24</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
@@ -296,10 +263,10 @@ Create file</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>927</x>
-      <y>486</y>
-      <w>90</w>
-      <h>45</h>
+      <x>968</x>
+      <y>168</y>
+      <w>80</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>
 Patient Files</panel_attributes>
@@ -308,10 +275,10 @@ Patient Files</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>936</x>
-      <y>99</y>
-      <w>81</w>
-      <h>36</h>
+      <x>1112</x>
+      <y>408</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>Hospital_Info</panel_attributes>
     <additional_attributes/>
@@ -319,10 +286,10 @@ Patient Files</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>585</x>
-      <y>63</y>
-      <w>108</w>
-      <h>72</h>
+      <x>800</x>
+      <y>376</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>type=decision
 View
@@ -331,23 +298,12 @@ Info</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>963</x>
-      <y>207</y>
-      <w>27</w>
-      <h>171</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1134</x>
-      <y>423</y>
-      <w>81</w>
-      <h>45</h>
+      <x>1152</x>
+      <y>112</y>
+      <w>72</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>P_Address</panel_attributes>
     <additional_attributes/>
@@ -355,10 +311,10 @@ Info</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1134</x>
-      <y>513</y>
-      <w>81</w>
-      <h>45</h>
+      <x>1152</x>
+      <y>192</y>
+      <w>72</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>P_Gender</panel_attributes>
     <additional_attributes/>
@@ -366,33 +322,21 @@ Info</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1134</x>
-      <y>468</y>
-      <w>81</w>
-      <h>45</h>
+      <x>1152</x>
+      <y>152</y>
+      <w>72</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>P_Age</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>1134</x>
-      <y>558</y>
-      <w>81</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Appointed
-Doctor</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>684</x>
-      <y>81</y>
-      <w>126</w>
-      <h>36</h>
+      <x>888</x>
+      <y>392</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
@@ -400,10 +344,10 @@ Doctor</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>873</x>
-      <y>81</y>
-      <w>54</w>
-      <h>36</h>
+      <x>1056</x>
+      <y>392</y>
+      <w>48</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>40.0;20.0;10.0;20.0</additional_attributes>
@@ -411,10 +355,10 @@ Doctor</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
-      <y>63</y>
-      <w>27</w>
-      <h>72</h>
+      <x>1080</x>
+      <y>376</y>
+      <w>24</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
@@ -422,10 +366,10 @@ Doctor</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
-      <y>54</y>
-      <w>54</w>
-      <h>36</h>
+      <x>1080</x>
+      <y>368</y>
+      <w>48</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>40.0;20.0;10.0;20.0</additional_attributes>
@@ -433,10 +377,10 @@ Doctor</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
-      <y>99</y>
-      <w>54</w>
-      <h>36</h>
+      <x>1080</x>
+      <y>408</y>
+      <w>48</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>40.0;20.0;10.0;20.0</additional_attributes>
@@ -444,10 +388,10 @@ Doctor</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>180</x>
-      <y>612</y>
-      <w>81</w>
-      <h>45</h>
+      <x>104</x>
+      <y>584</y>
+      <w>72</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>Specialization</panel_attributes>
     <additional_attributes/>
@@ -455,10 +399,10 @@ Doctor</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>432</x>
-      <y>369</y>
-      <w>90</w>
-      <h>45</h>
+      <x>328</x>
+      <y>336</y>
+      <w>80</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>
 Doctor List</panel_attributes>
@@ -467,10 +411,10 @@ Doctor List</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>279</y>
-      <w>27</w>
-      <h>27</h>
+      <x>240</x>
+      <y>248</y>
+      <w>24</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;10.0</additional_attributes>
@@ -478,10 +422,10 @@ Doctor List</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>288</x>
-      <y>351</y>
-      <w>108</w>
-      <h>72</h>
+      <x>200</x>
+      <y>320</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>type=decision
 Update</panel_attributes>
@@ -490,10 +434,10 @@ Update</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>324</y>
-      <w>27</w>
-      <h>27</h>
+      <x>240</x>
+      <y>288</y>
+      <w>24</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;10.0</additional_attributes>
@@ -501,10 +445,10 @@ Update</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>549</x>
-      <y>351</y>
-      <w>108</w>
-      <h>72</h>
+      <x>528</x>
+      <y>320</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>type=decision
 Search Doctors</panel_attributes>
@@ -513,21 +457,21 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>369</y>
-      <w>54</w>
-      <h>36</h>
+      <x>400</x>
+      <y>336</y>
+      <w>144</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>324</y>
-      <w>27</w>
-      <h>27</h>
+      <x>240</x>
+      <y>288</y>
+      <w>24</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;10.0</additional_attributes>
@@ -535,10 +479,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>387</x>
-      <y>369</y>
-      <w>63</w>
-      <h>36</h>
+      <x>288</x>
+      <y>336</y>
+      <w>56</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
@@ -546,10 +490,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
-      <y>297</y>
-      <w>45</w>
-      <h>36</h>
+      <x>184</x>
+      <y>264</y>
+      <w>40</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;30.0;20.0</additional_attributes>
@@ -557,10 +501,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1008</x>
-      <y>495</y>
-      <w>63</w>
-      <h>36</h>
+      <x>1040</x>
+      <y>176</y>
+      <w>56</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
@@ -568,10 +512,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>324</y>
-      <w>45</w>
-      <h>36</h>
+      <x>168</x>
+      <y>288</y>
+      <w>40</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;30.0;20.0</additional_attributes>
@@ -579,10 +523,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>270</y>
-      <w>45</w>
-      <h>36</h>
+      <x>168</x>
+      <y>240</y>
+      <w>40</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;30.0;20.0</additional_attributes>
@@ -590,65 +534,54 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>666</x>
-      <y>225</y>
-      <w>27</w>
-      <h>360</h>
+      <x>664</x>
+      <y>152</y>
+      <w>32</w>
+      <h>424</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;380.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;510.0;20.0;510.0;20.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>513</x>
-      <y>549</y>
-      <w>54</w>
-      <h>36</h>
+      <x>400</x>
+      <y>544</y>
+      <w>192</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>40.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>220.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>324</y>
-      <w>27</w>
-      <h>45</h>
+      <x>240</x>
+      <y>288</y>
+      <w>24</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>702</x>
-      <y>198</y>
-      <w>288</w>
-      <h>36</h>
+      <x>712</x>
+      <y>120</y>
+      <w>264</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>300.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>648</x>
-      <y>549</y>
-      <w>45</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>30.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>252</x>
-      <y>477</y>
-      <w>126</w>
-      <h>36</h>
+      <x>168</x>
+      <y>464</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
@@ -656,10 +589,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>522</y>
-      <w>126</w>
-      <h>36</h>
+      <x>168</x>
+      <y>504</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
@@ -667,10 +600,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>567</y>
-      <w>126</w>
-      <h>36</h>
+      <x>168</x>
+      <y>544</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
@@ -678,10 +611,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>612</y>
-      <w>126</w>
-      <h>36</h>
+      <x>168</x>
+      <y>584</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
@@ -689,10 +622,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1044</x>
-      <y>432</y>
-      <w>27</w>
-      <h>171</h>
+      <x>1072</x>
+      <y>120</y>
+      <w>24</w>
+      <h>152</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -700,10 +633,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1044</x>
-      <y>423</y>
-      <w>108</w>
-      <h>36</h>
+      <x>1072</x>
+      <y>112</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
@@ -711,10 +644,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1044</x>
-      <y>468</y>
-      <w>108</w>
-      <h>36</h>
+      <x>1072</x>
+      <y>152</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
@@ -722,10 +655,10 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1044</x>
-      <y>513</y>
-      <w>108</w>
-      <h>36</h>
+      <x>1072</x>
+      <y>192</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
@@ -733,35 +666,285 @@ Search Doctors</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1044</x>
-      <y>567</y>
-      <w>108</w>
-      <h>36</h>
+      <x>280</x>
+      <y>264</y>
+      <w>56</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>UMLSpecialState</id>
     <coordinates>
-      <x>297</x>
-      <y>72</y>
-      <w>117</w>
-      <h>45</h>
+      <x>320</x>
+      <y>248</y>
+      <w>96</w>
+      <h>64</h>
     </coordinates>
-    <panel_attributes>
-Hospital List</panel_attributes>
+    <panel_attributes>type=decision
+Prepare</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>351</x>
-      <y>108</y>
-      <w>27</w>
-      <h>90</h>
+      <x>360</x>
+      <y>304</y>
+      <w>24</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>368</y>
+      <w>24</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>368</x>
+      <y>568</y>
+      <w>456</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;80.0;550.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>952</x>
+      <y>80</y>
+      <w>24</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>152</y>
+      <w>120</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>130.0;320.0;10.0;320.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>808</x>
+      <y>600</y>
+      <w>96</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>type=decision
+
+Assign
+Hospital
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>896</x>
+      <y>416</y>
+      <w>160</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>180.0;10.0;180.0;270.0;10.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>768</x>
+      <y>552</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Available Dates</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>800</x>
+      <y>576</y>
+      <w>48</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;40.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>472</y>
+      <w>48</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>40.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>496</y>
+      <w>80</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>80.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>256</x>
+      <y>472</y>
+      <w>24</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>544</x>
+      <y>472</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Patiens Appointed</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>496</y>
+      <w>40</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;30.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>424</x>
+      <y>456</y>
+      <w>96</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>type=decision
+Check</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1072</x>
+      <y>240</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1152</x>
+      <y>232</y>
+      <w>72</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Appointed
+Doctor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>272</y>
+      <w>160</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>180.0;260.0;180.0;170.0;70.0;170.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>328</x>
+      <y>336</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+Doctor List</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>128</y>
+      <w>72</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>208</y>
+      <w>432</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>520.0;20.0;10.0;20.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>776</x>
+      <y>208</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+Doctor List</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>848</x>
+      <y>216</y>
+      <w>176</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>200.0;210.0;200.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
