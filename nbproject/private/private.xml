@@ -3,12 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ece/Documents/NetBeansProjects/HealthCare/src/DBConnect.java</file>
-            <file>file:/C:/Users/ece/Documents/NetBeansProjects/HealthCare/src/Login.java</file>
-            <file>file:/C:/Users/ece/Documents/NetBeansProjects/HealthCare/src/AdminLogin.java</file>
-            <file>file:/C:/Users/ece/Documents/NetBeansProjects/HealthCare/src/AdminRegister.java</file>
-            <file>file:/C:/Users/ece/Documents/NetBeansProjects/HealthCare/src/DoctorLogin.java</file>
-            <file>file:/C:/Users/ece/Documents/NetBeansProjects/HealthCare/src/DoctorRegister.java</file>
+            <file>file:/C:/Users/ogeday/Documents/NetBeansProjects/HealthCare/src/DoctorLogin.java</file>
+            <file>file:/C:/Users/ogeday/Documents/NetBeansProjects/HealthCare/src/PatientRegister.java</file>
+            <file>file:/C:/Users/ogeday/Documents/NetBeansProjects/HealthCare/src/DoctorRegister.java</file>
+            <file>file:/C:/Users/ogeday/Documents/NetBeansProjects/HealthCare/src/AdminRegister.java</file>
+            <file>file:/C:/Users/ogeday/Documents/NetBeansProjects/HealthCare/src/PatientHomePage.java</file>
+            <file>file:/C:/Users/ogeday/Documents/NetBeansProjects/HealthCare/src/DBConnect.java</file>
+            <file>file:/C:/Users/ogeday/Documents/NetBeansProjects/HealthCare/src/DoctorHomepage.java</file>
+            <file>file:/C:/Users/ogeday/Documents/NetBeansProjects/HealthCare/src/Login.java</file>
+            <file>file:/C:/Users/ogeday/Documents/NetBeansProjects/HealthCare/src/AdminLogin.java</file>
         </group>
     </open-files>
 </project-private>

@@ -132,11 +132,20 @@ PreparedStatement pst=null;
         String sql = "INSERT INTO `admin`(`username`, `password`) VALUES (?, ?)";
         con=DBConnect.ConnectDB();
         pst=con.prepareStatement(sql);
-        pst.setString(1, username.getText());
+        String uname=username.getText();
+        
+        Statement st = con.createStatement();
+        ResultSet rs2=st.executeQuery("Select username from admin where username= '"+uname+"'");
+        if(rs2.next()){
+        JOptionPane.showMessageDialog(null,"This username already exists");
+        }
+        
+        else{
+        pst.setString(1, uname);
         pst.setString(2, password.getText());
         pst.executeUpdate();
          JOptionPane.showMessageDialog(null," REGISTER SUCCESSFULL");
-        
+        }
                 } catch(Exception e){ 
                     JOptionPane.showMessageDialog(null,e);
                 }
