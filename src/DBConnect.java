@@ -17,5 +17,11 @@ public class DBConnect {
             return null;
         }
     }
+    
+    public String ReturnHospitalNames(){                                         
+        con=DBConnect.ConnectDB();
+        String hospitals = "Select * from hospital";
+        return hospitals;
+    }
 }  
     

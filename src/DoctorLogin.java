@@ -13,9 +13,20 @@ import javax.swing.*;
  * @author ece
  */
 public class DoctorLogin extends javax.swing.JFrame {
+
 Connection con=null;
 PreparedStatement pst=null;
 ResultSet rs=null;
+
+static String user;
+
+public void setUsername(String input){
+        user = input;
+    }
+
+    
+    
+
     /**
      * Creates new form DoctorLogin
      */
@@ -149,6 +160,7 @@ ResultSet rs=null;
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+
         con=DBConnect.ConnectDB();
         String sql = "Select * from doctor where username=? and password=?";
         try {
@@ -157,7 +169,9 @@ ResultSet rs=null;
         pst.setString(2, password.getText());
         rs = pst.executeQuery();
         if(rs.next()){
-            JOptionPane.showMessageDialog(null,"Welcome doctor");
+            setUsername(username.getText());
+             new DoctorHomepage(user).setVisible(true);
+             this.setVisible(false); 
         }
         else{
             JOptionPane.showMessageDialog(null,"Invalid username or password");
@@ -177,6 +191,9 @@ ResultSet rs=null;
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    
+            
+    
     /**
      * @param args the command line arguments
      */
