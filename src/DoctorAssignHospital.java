@@ -131,15 +131,13 @@ public class DoctorAssignHospital extends javax.swing.JFrame {
 
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
         // TODO add your handling code here:
-        String hospital = jComboBox1.getSelectedItem().toString();
         
         try {
-        String sql = "update doctor set hospitalserved = ? where username = ? ";
-        jLabel1.setText(sql);
-        con=DBConnect.ConnectDB();
-        pst=con.prepareStatement(sql);
-        pst.setString(1, hospital);
-        pst.setString(2, user);
+        String b = user;    
+        String a = jComboBox1.getSelectedItem().toString(); 
+        String query="UPDATE doctor SET hospitalserved='"+ a +"' WHERE username='"+ b +"'";       
+        PreparedStatement pst = con.prepareStatement(query);
+        pst.executeUpdate();    
         
         } catch(Exception e){ 
                     JOptionPane.showMessageDialog(null,e);
