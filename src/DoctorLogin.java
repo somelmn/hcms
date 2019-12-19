@@ -1,7 +1,3 @@
-
-import javax.swing.JOptionPane;
-import java.sql.*;
-import javax.swing.*;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -13,20 +9,7 @@ import javax.swing.*;
  * @author ece
  */
 public class DoctorLogin extends javax.swing.JFrame {
-
-Connection con=null;
-PreparedStatement pst=null;
-ResultSet rs=null;
-
-static String user;
-
-public void setUsername(String input){
-        user = input;
-    }
-
-    
-    
-
+    DBConnect conn = new DBConnect();
     /**
      * Creates new form DoctorLogin
      */
@@ -82,7 +65,7 @@ public void setUsername(String input){
             }
         });
 
-        jButton3.setText("Cancel");
+        jButton3.setText("Go Back");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -160,27 +143,10 @@ public void setUsername(String input){
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-
-        con=DBConnect.ConnectDB();
-        String sql = "Select * from doctor where username=? and password=?";
-        try {
-        pst = con.prepareStatement(sql);
-        pst.setString(1, username.getText());
-        pst.setString(2, password.getText());
-        rs = pst.executeQuery();
-        if(rs.next()){
-            setUsername(username.getText());
-             new DoctorHomepage(user).setVisible(true);
-             this.setVisible(false); 
+        if(conn.doctorLogin(username.getText(), password.getText())){
+        this.setVisible(false);
+        new DoctorHomepage(username.getText()).setVisible(true);
         }
-        else{
-            JOptionPane.showMessageDialog(null,"Invalid username or password");
-        }
-        
-                } catch(Exception e){ 
-                    JOptionPane.showMessageDialog(null,e);
-                }
-        
         
         
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -191,9 +157,6 @@ public void setUsername(String input){
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    
-            
-    
     /**
      * @param args the command line arguments
      */

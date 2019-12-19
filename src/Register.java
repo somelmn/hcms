@@ -6,7 +6,7 @@
 
 /**
  *
- * @author ece
+ * @author Sumiya
  */
 public class Register extends javax.swing.JFrame {
 

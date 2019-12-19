@@ -58,7 +58,7 @@ PreparedStatement pst=null;
             }
         });
 
-        jButton2.setText("Cancel");
+        jButton2.setText("Go Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);

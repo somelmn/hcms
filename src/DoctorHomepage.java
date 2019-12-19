@@ -10,9 +10,6 @@
  */
 public class DoctorHomepage extends javax.swing.JFrame {
 
-static String userDoctor = "DoctorHomepage";
-
-
     /**
      * Creates new form DoctorHomepage
      */
@@ -22,12 +19,7 @@ static String userDoctor = "DoctorHomepage";
     
     public DoctorHomepage(String username) {
         initComponents();
-        setUsername(username);
-    }
-    
-    public void setUsername(String para){
-        userDoctor = para;
-        jLabel2.setText(userDoctor);
+        doctorLabel.setText(username);
     }
 
     /**
@@ -46,7 +38,7 @@ static String userDoctor = "DoctorHomepage";
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        doctorLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -57,6 +49,11 @@ static String userDoctor = "DoctorHomepage";
         jLabel1.setText("DOCTOR HOMEPAGE");
 
         jButton1.setText("Assign Dates");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Assign Hospital");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -65,16 +62,21 @@ static String userDoctor = "DoctorHomepage";
             }
         });
 
-        jButton3.setText("Patient List");
+        jButton3.setText("Patient List For Me");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
-        jButton4.setText("Cancel");
+        jButton4.setText("Go Back");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
 
-        jLabel2.setText("jLabel2");
+        doctorLabel.setText("jLabel2");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -95,23 +97,23 @@ static String userDoctor = "DoctorHomepage";
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(47, 47, 47))
+                .addComponent(doctorLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(58, 58, 58))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(62, 62, 62)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel2)
-                .addGap(57, 57, 57)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(doctorLabel)
+                .addGap(69, 69, 69)
                 .addComponent(jButton1)
-                .addGap(34, 34, 34)
+                .addGap(32, 32, 32)
                 .addComponent(jButton2)
                 .addGap(34, 34, 34)
                 .addComponent(jButton3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 117, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 111, Short.MAX_VALUE)
                 .addComponent(jButton4)
                 .addGap(86, 86, 86))
         );
@@ -146,13 +148,21 @@ static String userDoctor = "DoctorHomepage";
         new DoctorLogin().setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         this.setVisible(false);
-        new DoctorAssignHospital(userDoctor).setVisible(true);
+        new PatientList(doctorLabel.getText()).setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        this.setVisible(false);
+        new AssignDates(doctorLabel.getText()).setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        this.setVisible(false);
+        new AssignHospital(doctorLabel.getText()).setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
-    
-    
+
     /**
      * @param args the command line arguments
      */
@@ -182,7 +192,6 @@ static String userDoctor = "DoctorHomepage";
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
-            @Override
             public void run() {
                 new DoctorHomepage().setVisible(true);
             }
@@ -190,12 +199,12 @@ static String userDoctor = "DoctorHomepage";
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel doctorLabel;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables

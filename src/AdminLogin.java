@@ -1,9 +1,3 @@
-
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-
-import java.sql.*;
-import javax.swing.*;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -14,10 +8,9 @@ import javax.swing.*;
  *
  * @author ece
  */
+
 public class AdminLogin extends javax.swing.JFrame {
-Connection con=null;
-PreparedStatement pst=null;
-ResultSet rs=null;
+DBConnect conn = new DBConnect();
     /**
      * Creates new form AdminLogin
      */
@@ -55,7 +48,7 @@ ResultSet rs=null;
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("ADMIN LOGIN");
 
-        jButton1.setText("Cancel");
+        jButton1.setText("Go Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -98,9 +91,8 @@ ResultSet rs=null;
                             .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(password, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
                             .addComponent(username)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jButton3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 109, Short.MAX_VALUE))))
+                            .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 109, Short.MAX_VALUE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 519, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -119,7 +111,7 @@ ResultSet rs=null;
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 62, Short.MAX_VALUE)
                 .addComponent(jButton3)
                 .addGap(41, 41, 41)
                 .addComponent(jButton2)
@@ -150,23 +142,12 @@ ResultSet rs=null;
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        con=DBConnect.ConnectDB();
-        String sql = "Select * from admin where username=? and password=?";
-        try {
-        pst = con.prepareStatement(sql);
-        pst.setString(1, username.getText());
-        pst.setString(2, password.getText());
-        rs = pst.executeQuery();
-        if(rs.next()){
-            JOptionPane.showMessageDialog(null,"Welcome admin");
-        }
-        else{
-            JOptionPane.showMessageDialog(null,"Invalid username or password");
+        
+        if(conn.adminLogin(username.getText(),password.getText())){
+            this.setVisible(false);
+            new AdminHomePage().setVisible(true);
         }
         
-                } catch(Exception e){ 
-                    JOptionPane.showMessageDialog(null,e);
-                }
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
