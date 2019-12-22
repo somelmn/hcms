@@ -208,7 +208,23 @@ public class DBConnect {
     }
     
     
-    
+    public void deleteAccount(String username, String pid){
+        con=DBConnect.ConnectDB();
+        String sql = "DELETE FROM patient WHERE username = ? and pid = ? ";
+        try{
+            pst = con.prepareStatement(sql);
+            pst.setString(1, username);
+            pst.setString(2, pid);
+            pst.execute();
+            JOptionPane.showMessageDialog(null, "Account Deleted");
+            
+            
+         } catch (Exception e){
+             
+               JOptionPane.showMessageDialog(null, " I WANT TO DIE ");
+               
+         }      
+    }
     
     
 }  
